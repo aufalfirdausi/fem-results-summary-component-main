@@ -28,7 +28,8 @@ body {
   }
 
   .card-1 {
-    background: linear-gradient(45deg, #2193b0, #6dd5ed);
+    background: rgb(104,43,222);
+    background: linear-gradient(180deg, rgba(104,43,222,1) 0%, rgba(49,0,233,1) 71%, rgba(49,0,233,1) 100%);
     top: 0;
     left: 0;
     z-index: 2;
@@ -38,11 +39,19 @@ body {
   }
   
   .card-2 {
-    background: linear-gradient(45deg, #ee9ca7, #ffdde1);
+    background: white;
+    box-shadow: 2px 2px 5px rgb(197, 197, 197);
     top: 0px;
     left: 0px;
     z-index: 1;
     width: 800px;
     height: 400px;
     padding: 20px;
+    color: black;
+    display: flex;
+  }
+
+  .card-2 .content {
+   position: absolute;
+   left: 600px;
   }
