@@ -9,6 +9,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    font-family:Arial, Helvetica, sans-serif ;
   }
 
   .container {
@@ -33,8 +34,8 @@ body {
     top: 0;
     left: 0;
     z-index: 2;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 480px;
     padding: 20px;
   }
   
@@ -44,8 +45,8 @@ body {
     top: 0px;
     left: 0px;
     z-index: 1;
-    width: 800px;
-    height: 400px;
+    width: 700px;
+    height: 480px;
     padding: 20px;
     color: black;
     display: flex;
@@ -53,5 +54,46 @@ body {
 
   .card-2 .content {
    position: absolute;
-   left: 600px;
+   left: 460px;
+  }
+
+  .circle-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: rgb(53,12,173);
+    background: linear-gradient(180deg, rgba(53,12,173,1) 0%, rgba(85,48,194,1) 90%);
+    border-radius: 50%;
+    margin: 35px 0;
+  }
+
+  .score {
+    font-size: 70px;
+    color: whitesmoke;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .desc-score {
+    font-size: 17px;
+    color: grey;
+    opacity: 0.8;
+    margin-top: 17px;
+  }
+
+  .title-desc-1 {
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 30px;
+  }
+
+  .desc-1 {
+    margin-top: 15px;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: white;
+    opacity: 0.7;
   }
