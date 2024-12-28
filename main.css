@@ -121,13 +121,17 @@ body {
     background-color: rgb(246, 209, 209);
   }
 
-  .left-section {
+  .reaction .desc-name {
+    color: salmon;
+  }
+
+  .reaction.left-section {
     display: flex;
     flex-direction: row;
     gap: 10px;
   }
 
-  .left-section .desc-name {
+  .left-section.desc-name {
     position: relative;
     top: 3px;
 
@@ -141,7 +145,7 @@ body {
     padding: 10px;
   }
 
-  .right-section .bold-numb {
+  .right-section.bold-numb {
     color: black;
   }
 
@@ -169,7 +173,56 @@ body {
     gap: 10px;
   }
 
-  .left-section .desc-name {
+  .memory .desc-name {
+    color: rgb(245, 198, 46);
+  }
+
+  .left-section.desc-name {
+    position: relative;
+    top: 3px;
+  }
+
+  .right-section {
+    display: flex;
+    flex-direction :row;
+    color: gray;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .right-section .bold-numb {
+    color: black;
+  }
+
+  .part.verbal {
+    width: 290px;
+    height: 50px;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    right: 30px;
+  }
+
+  .part.verbal {
+    background-color: rgb(227, 246, 209);
+  }
+
+  .left-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+    .verbal .desc-name {
+        color: rgb(13, 209, 173);
+    } 
+
+  .left-section.desc-name {
     position: relative;
     top: 3px;
 
@@ -185,4 +238,62 @@ body {
 
   .right-section .bold-numb {
     color: black;
+  }
+
+  .part.visual {
+    width: 290px;
+    height: 50px;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    right: 30px;
+  }
+
+  .part.visual {
+    background-color: rgb(210, 214, 246);
+  }
+
+  .left-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .visual .desc-name {
+    color: blue;
+  }
+
+  .left-section.desc-name {
+    position: relative;
+    top: 3px;
+
+  }
+
+  .right-section {
+    display: flex;
+    flex-direction :row;
+    color: gray;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .right-section .bold-numb {
+    color: black;
+  }
+
+  .continue {
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: rgb(10, 0, 122);
+    color: white;
+    border: none;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    font-size: 20px;
   }
