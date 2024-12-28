@@ -99,15 +99,40 @@ body {
   }
 
   .reaction {
-    width: 280px;
+    width: 290px;
     height: 50px;
-    background-color: salmon;
+    background-color: rgb(246, 209, 209);
     color: black;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
     gap: 20px;
     position: relative;
     right: 30px;
+  }
+
+  .left-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .left-section .desc-name {
+    position: relative;
+    top: 3px;
+
+  }
+
+  .right-section {
+    display: flex;
+    flex-direction :row;
+    color: gray;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .right-section .bold-numb {
+    color: black;
   }
